@@ -63,8 +63,8 @@
 等虚拟机跑完了之后，我们就会发现自己的dol文件解压好了。
 
 ###3、编译systemc
-我们首先是进行systemc文件的解压，然后再进行编译：
-​	
+我们首先是进行systemc文件的解压，然后再进行编译:
+
 	tar -zxvf systemc-2.3.1.tgz
 	cd systemc-2.3.1
 	mkdir objdir
