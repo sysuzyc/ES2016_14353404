@@ -32,7 +32,7 @@
 
 
 3）在安装好平台之后，我们的编译语言java的最重要的部分jdk需要安装了，我们用的是jdk7，所以，我们就配置jdk7。由于我用的是Ubuntu16.04的版本，所以，我的jdk是不可以直接进行安装的，需要加入一些适当的库，才可以进行jdk的安装。
-​	
+
 	sudo add-apt-repository ppa:openjdk-r/ppa
 	sudo apt-get update
 	sudo apt-get install openjdk-7-jdk  // OpenJdk 7安装：
