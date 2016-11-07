@@ -1,5 +1,0 @@
-git init
-git add readme.md
-git commit -m "lab1"
-git remote add origin https://github.com/sysuzyc/ES2016_14353404.git
-git push -f origin master
