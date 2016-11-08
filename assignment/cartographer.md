@@ -73,7 +73,7 @@
 	cd catkin_ws
 	catkin_make
 
-![](http://p1.bqimg.com/567571/30399ebbf768e980.png)
+![cm1](http://img.blog.csdn.net/20161108211959105)
 等这些语句运行完之后，看下catkin_ws的src文件夹下都有哪些内容：
 
 ![](http://p1.bqimg.com/567571/4be3e72f858ff82d.png)
@@ -92,7 +92,7 @@
 初次运行如下所示：
 
 ![](http://p1.bqimg.com/567571/33dfb3d10f32be03.png)
-![](http://p1.bqimg.com/567571/73ddcf6f122309ef.png)
+![cm3](http://img.blog.csdn.net/20161108212312180)
 
 看到结果如下所示：
 
