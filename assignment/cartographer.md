@@ -63,7 +63,7 @@
 
 同样的最后的一步执行如下：
 
-![sudo2](http://img.blog.csdn.net/20161108211917085)
+![这里写图片描述](http://img.blog.csdn.net/20161108212858555)
 
 上面的命令执行完了之后，我们需要做的就是安装cartographer_ros。
 
