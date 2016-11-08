@@ -14,7 +14,8 @@
 	wstool init src
 	wstool merge -t src https://raw.githubusercontent.com/googlecartographer/cartographer_ros/master/cartographer_ros.rosinstall
 	wstool update -t src
-![](http://img.blog.csdn.net/20161108204907945)
+	
+![wstool](http://img.blog.csdn.net/20161108211656943)
 
 ###Install deb dependencies
 
@@ -40,7 +41,7 @@
 	sudo ninja install
 这一步得到的是ceres的建立和初始化，通过从导入对应的文件，可以很好的避免翻墙这种方法。结果也是比较正常的。
 
-![](http://p1.bqimg.com/567571/043b13c0f9a14012.png)
+![这里写图片描述](http://img.blog.csdn.net/20161108211610379)
 
 然后进行下最后一步，可以看到：
 
