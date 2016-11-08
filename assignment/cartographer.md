@@ -15,7 +15,7 @@
 	wstool merge -t src https://raw.githubusercontent.com/googlecartographer/cartographer_ros/master/cartographer_ros.rosinstall
 	wstool update -t src
 
-![](http://p1.bpimg.com/567571/adcaea6fc10cd1f4.png)
+![](http://img.blog.csdn.net/20161108204907945)
 
 ###Install deb dependencies
 
