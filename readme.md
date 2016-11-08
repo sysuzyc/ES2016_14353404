@@ -114,6 +114,7 @@
 
 <img src="http://p1.bpimg.com/567571/b20beb7f45c3d1ad.png" width="500" height="380" />
 
+
 看到上面的结果的话，说明我们这次的实验配置成功了。
 
 :blush:
