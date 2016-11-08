@@ -16,7 +16,6 @@
 	wstool update -t src
 
 ![](http://p1.bpimg.com/567571/adcaea6fc10cd1f4.png)
-
 ###Install deb dependencies
 
 	rosdep init
