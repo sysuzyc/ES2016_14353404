@@ -74,6 +74,7 @@
 	catkin_make
 
 ![cm1](http://img.blog.csdn.net/20161108211959105)
+
 等这些语句运行完之后，看下catkin_ws的src文件夹下都有哪些内容：
 
 ![](http://p1.bqimg.com/567571/4be3e72f858ff82d.png)
