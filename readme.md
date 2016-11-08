@@ -18,7 +18,7 @@
 
 	sudo apt-get update
 
-<img src="http://p1.bpimg.com/567571/39b668e00d76f3c6.png" width="500" height="300" />
+![](http://i1.piimg.com/567571/7c40408670899586.png)
 
 在进行了源的更新之后，我们可以继续进行下面的配置。
 
@@ -112,7 +112,7 @@
 
 所以，我们看到，这个时候，buidl_zip.xml是编译成功了，然后，我们可以尝试下运行这次的实验，结果如下所示：
 
-<img src="http://p1.bpimg.com/567571/b20beb7f45c3d1ad.png" width="500" height="380" />
+![](http://i1.piimg.com/567571/4be294e3dad6574e.png)
 
 
 看到上面的结果的话，说明我们这次的实验配置成功了。
