@@ -1,7 +1,7 @@
-#在ROS下安装运行cartographer
-###14353404 张亚琛
-##1、实验过程
-###Install wstool and rosdep
+# 在ROS下安装运行cartographer
+### 14353404 张亚琛
+## 1、实验过程
+### Install wstool and rosdep
 	sudo apt-get update
 	sudo apt-get install -y python-wstool python-rosdep ninja-build
 首先是对于在上一次的实验中安装的工具的初始化。
@@ -17,7 +17,7 @@
 	
 ![wstool](http://img.blog.csdn.net/20161108211656943)
 
-###Install deb dependencies
+### Install deb dependencies
 
 	rosdep init
 	rosdep update
@@ -25,12 +25,12 @@
 
 ![](http://p1.bpimg.com/567571/36d96534dd73084a.png)
 
-###Build and install
+### uild and install
 
 	catkin_make_isolated --install --use-ninja
 	source install_isolated/setup.bash
 本来按照google的官方网站的做法，是需要翻墙才可以的，不然的话，就会报错。但是如果不想翻墙的话，需要采用以下方法：
-####Build and install Ceres.
+#### Build and install Ceres.
 	git clone https://ceres-solver.googlesource.com/ceres-solver
 	cd ceres-solver
 	mkdir build
@@ -47,7 +47,7 @@
 
 ![](http://p1.bqimg.com/567571/c760bf5c26f46b0b.png)
 
-####Build and install Cartographer
+#### Build and install Cartographer
 
 	git clone https://github.com/hitcm/cartographer.git
 	cd cartographer
@@ -81,7 +81,7 @@
 
 如果是上面这些内容的话，那么结果就是正确的了。
 
-###Running the demos
+### Running the demos
 	# Download the 2D backpack example bag.
 	wget -P ~/Downloads https://storage.googleapis.com/cartographer-public-data/bags/backpack_2d/cartographer_paper_deutsches_museum.bag
 	
@@ -107,5 +107,5 @@
 
 所以，结果是正确的。
 
-##2、实验感想
+## 2、实验感想
 这次的实验其实是比较麻烦的，主要是需要翻墙才可以进行那一步操作，如果不翻墙的话，是不可以的，所以，我们需要找对方法来替代那一步对应的操作。所以，这里是比较麻烦的。然后，虽然过程比较坎坷，但是最终还是做出来了。看到这些图片的时候，还是比较开心的。毕竟自己调了一天了，还是没有调通，最后在师兄的指导下，改正了错误，才终于搞好了。也是不容易啊！最后，还是比较开心自己能够搞出来这个东西啦~
